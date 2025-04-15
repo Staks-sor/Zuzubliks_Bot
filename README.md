@@ -11,10 +11,18 @@ Telegram-бот для вычесления средней цены.
 1. Клонируйте репозиторий:
    ```bash
    git clone https://github.com/yourusername/zuzubliks-bot.git
+   ```
+   ```bash
    cd zuzubliks-bot
-   
+   ```
 ## Запуск
-1. Создайте .env c содержимым TELEGRAM_BOT_TOKEN= тут ваш апи бот 123445567:буквы
-2. pip install poetry
-3. poetry install
-4. poetry run python bot.py
+Создайте .env c содержимым TELEGRAM_BOT_TOKEN= тут ваш апи бот 123445567:буквы
+```bash
+pip install poetry
+```
+```bash
+poetry install
+```
+```bash
+poetry run python bot.py
+```
